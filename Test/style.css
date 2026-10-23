@@ -1,0 +1,32 @@
+/*Root kontrollerar värden som jag kan använda likt variabler*/
+:root {
+    --color--purple: #e192d7;
+    --color--background: #f3f3f3;
+    --color--box: #ddaa3c;
+    --color--text: #000;
+
+    --font--heading: "Roboto";
+    --font--body: "Roboto";
+
+    --max-width: 1040;
+    --spacing: 20px;
+
+}
+*{
+    box-sizing: border-box;
+}
+
+/* header och menu */
+
+/* typography */
+h1, h2, h3 {
+    font-family: var(--font--heading);
+    color: var(--color--box);
+    font-weight: 600;
+    line-height: 1,15;
+    margin: 0 auto 16px
+}
+
+section {
+    padding: 24px 24px 24px 24px;
+}
